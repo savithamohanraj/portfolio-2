@@ -1,0 +1,191 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="icon" href="work5.jpg" type="image.jpg">
+        <title>Savitha|portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <nav id="header">
+                <div class="nav-logo" href="#home" onclick="scrollToHome">
+                    <p class="nav-name"><b>Savitha</b><span> Mohanraj</span></p>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav_menu_list">
+                        <li class="nav_list">
+                            <a class="nav-link active-link home" onclick="scrollToHome()">Home</a>
+                        </li>
+                        <li class="nav_list">
+                            <a class="nav-link about" onclick="scrollToAbout()">About</a>
+                        </li>
+                        <li class="nav_list">
+                            <a class="nav-link service" onclick="scrollToService()">Service</a>
+                        </li>
+                        <li class="nav_list">
+                            <a class="nav-link Contact" onclick="scrollToContact()">Contact</a>
+                        </li>     
+                    </ul>
+                </div>     
+                </div>
+                <div class="nav-menu-btn">
+                    <i class="bx bx-menu" id="toggleBtn"></i>
+                </div>
+            </nav>
+            <main class="wrapper">
+                <section class="landing-page" id="home">
+                    <div class="featured-text">
+                        <div class="featured-name">
+                            <p>Hi! I'm <span> Savitha</span></p>
+                        </div>
+                        <div class="featured-text-info">
+                            <p>Bca Fresher with a strong foundation in computer application, programming languages, and technical skills,
+                               eager to kick - start my career as a software developer in reputable company that offers opportunities for 
+                               skill development and career advancement.
+                            </p>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://www.github.com" class="icon"><i class="bx bxl-github"></i></a>
+                        </div>
+                        <div class="featured-text-btn">
+                            <button class="btn blue-btn">Hire Me</button>
+                        </div>
+                    </div>
+                    <div class="profile-image">
+                        <div class="image">
+                            <img src="formal.png" alt="avatar">
+                        </div>
+                    </div>
+                    <div class="scroll-btn" onclick="scrollToAbout">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </section>
+                <!------------About---------------->
+                <section class="section" id="about">
+                    <div class="top-header">
+                        <h1>About<span> Me</span></h1>
+                        <span> MY JOURNEY AS A DEVELOPER</span>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="about-info">
+                                <h3>Introduction</h3>
+                                <p> Hi I'm savitha, Recent Bca(Computer Application) graduate of suguna college of arts and science,
+                                    Batch: 2021-2024,
+                                    coimbatore.<br>
+
+                                    With a fundamental foundation of programming languages like c, c++, html, css, mysql, and python.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col skills">
+                            <h3 class="skills-title">skills</h3>
+                            <div class="col skills-section">
+                                <div class="skills-box frontend">
+                                    <div class="skills-header">
+                                        <h3>Frontend</h3>
+                                    </div>
+                                    <div class="skills-list">
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                    </div>
+                                </div>
+                                <div class="skills-box">
+                                    <div class="skill-header">
+                                        <h3>Backend</h3>
+                                    </div>
+                                    <div class="skills-list">
+                                        <span>Python</span>
+                                    </div>
+                                </div>
+                                <div class="skills-box">
+                                    <div class="skills-header">
+                                        <h3>Database</h3>
+                                    </div>
+                                    <div class="skills-list">
+                                        <span>Mysql</span>
+                                        <span>MongoDB</span>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </section>
+                <!------------Service---------------->
+                <section class="section" id="service">
+                    <div class="top-header">
+                        <h1>services</h1>
+                        <span>My Experiance</span>
+                    </div>
+                    <div class="service-conatiner">
+                        <div class="service-box">
+                            <i class="bx bx-briefcase"></i>
+                            <h3>Freshser</h3>
+                            <label>Created my own portfolio using html, css, and Javascript.</label>
+                        </div>
+                        <div class="service-box">
+                            <i class="bx bx-award"></i>
+                            <h3>Courses</h3>
+                            <img src="Screenshot_3-4-2025_203814_.jpeg" height="25%" width="25%" alt="Certificate">
+                            <img src="Screenshot_3-4-2025_203856_.jpeg" height="25%" width="25%" alt="Certificate"><br>
+                            <label>completed foundation on cloud.<br>
+                                   Completed data analytics using powerBI.</label>
+                        </div>
+                    </div>
+                </section>
+                <!-------------Contact--------------->
+                <section class="section" id="Contact">
+                    <div class="top-header">
+                        <h1>Get In Touch</h1> 
+                        <span>Gota Project In Mind? let's connect.</span>
+                    </div>
+                    <div class="row">
+                        <div class="col Contact-info">
+                            <div class="Contact-social-icons5">
+                                <a href="https://www.github.com" class="icon"><i class="bx bxl-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form">
+                                <div class="form-inputs">
+                                    <input type="name" class="input-field" placeholder="Name">
+                                    <input type="email" class="input-field" placeholder="Email">
+                                </div>
+                                <div class="text-area">
+                                    <textarea placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button class="btn">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!------------Footer---------------->
+            <footer>
+                <div class="middle-footer">
+                    <ul class="footer-menu">
+                        <li class="footer_menu_list" onclick="scrollToHome">
+                            <a onclick="scrollToHome">Home</a>
+                            <a onclick="scrollToAbout">About</a>
+                            <a onclick="scrollToService">Service</a>
+                            <a onclick="scrollToContact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-footer">
+                    <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Savitha</a></p>
+                </div>
+            </footer>
+        </div>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
